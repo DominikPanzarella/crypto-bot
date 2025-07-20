@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot",
+  "command": "/usr/bin/c++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/_deps/asio-src/asio/include -isystem /opt/homebrew/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -O3 -march=native -flto -fno-exceptions -fno-rtti -o CMakeFiles/arbitrage_bot.dir/src/main.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/main.cpp",
+  "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/main.cpp",
+  "output": "CMakeFiles/arbitrage_bot.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot",
+  "command": "/usr/bin/c++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/_deps/asio-src/asio/include -isystem /opt/homebrew/include -O3 -DNDEBUG -std=gnu++20 -arch arm64 -O3 -march=native -flto -fno-exceptions -fno-rtti -o CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/net/binancewebsocketconnection.cpp",
+  "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/net/binancewebsocketconnection.cpp",
+  "output": "CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o"
+}
+]

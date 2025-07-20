@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250720-1426-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.0.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="MBP-di-Dominik.homenet.telecomitalia.it"
+	OSRelease="14.1"
+	OSVersion="23B2073"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M3 Pro"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="11"
+	NumberOfPhysicalCPU="11"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="18432"
+	LogicalProcessorsPerPhysical="11"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Jul 20 16:41 CEST</StartDateTime>
+		<StartTestTime>1753022476</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 20 16:41 CEST</EndDateTime>
+		<EndTestTime>1753022476</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

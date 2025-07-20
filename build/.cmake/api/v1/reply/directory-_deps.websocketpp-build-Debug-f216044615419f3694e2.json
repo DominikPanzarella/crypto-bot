@@ -1,0 +1,44 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "dev",
+			"destination" : "/usr/local/lib/cmake/websocketpp",
+			"paths" : 
+			[
+				"/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-build/CMakeFiles/websocketpp-config.cmake",
+				"/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-build/CMakeFiles/websocketpp-configVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/websocketpp-build",
+		"source" : "/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src"
+	}
+}

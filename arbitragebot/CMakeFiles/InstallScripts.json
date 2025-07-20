@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/cmake_install.cmake",
+		"/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/_deps/websocketpp-build/cmake_install.cmake",
+		"/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/_deps/websocketpp-build/websocketpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
