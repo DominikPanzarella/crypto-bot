@@ -6,7 +6,7 @@
 	CompilerName=""
 	CompilerVersion=""
 	OSName="macOS"
-	Hostname="MBP-di-Dominik.homenet.telecomitalia.it"
+	Hostname="MacBook-Pro-di-Dominik.local"
 	OSRelease="14.1"
 	OSVersion="23B2073"
 	OSPlatform="arm64"
@@ -19,17 +19,17 @@
 	ProcessorCacheSize="131072"
 	NumberOfLogicalCPU="11"
 	NumberOfPhysicalCPU="11"
-	TotalVirtualMemory="4096"
+	TotalVirtualMemory="2048"
 	TotalPhysicalMemory="18432"
 	LogicalProcessorsPerPhysical="11"
 	ProcessorClockFrequency="0"
 	>
 	<Testing>
-		<StartDateTime>Jul 20 16:41 CEST</StartDateTime>
-		<StartTestTime>1753022476</StartTestTime>
+		<StartDateTime>Jul 22 14:35 CEST</StartDateTime>
+		<StartTestTime>1753187759</StartTestTime>
 		<TestList/>
-		<EndDateTime>Jul 20 16:41 CEST</EndDateTime>
-		<EndTestTime>1753022476</EndTestTime>
+		<EndDateTime>Jul 22 14:35 CEST</EndDateTime>
+		<EndTestTime>1753187759</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
