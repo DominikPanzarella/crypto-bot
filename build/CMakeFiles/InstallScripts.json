@@ -3,7 +3,8 @@
 	[
 		"/Users/dominikpanzarella/Desktop/crypto-bot/build/cmake_install.cmake",
 		"/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-build/cmake_install.cmake",
-		"/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-build/websocketpp/cmake_install.cmake"
+		"/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-build/websocketpp/cmake_install.cmake",
+		"/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

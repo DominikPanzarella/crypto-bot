@@ -184,6 +184,54 @@ arbitrage_bot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/build
 .PHONY : arbitrage_bot/fast
 
+src/datahandler/exchangerateshandler.o: src/datahandler/exchangerateshandler.cpp.o
+.PHONY : src/datahandler/exchangerateshandler.o
+
+# target to build an object file
+src/datahandler/exchangerateshandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o
+.PHONY : src/datahandler/exchangerateshandler.cpp.o
+
+src/datahandler/exchangerateshandler.i: src/datahandler/exchangerateshandler.cpp.i
+.PHONY : src/datahandler/exchangerateshandler.i
+
+# target to preprocess a source file
+src/datahandler/exchangerateshandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.i
+.PHONY : src/datahandler/exchangerateshandler.cpp.i
+
+src/datahandler/exchangerateshandler.s: src/datahandler/exchangerateshandler.cpp.s
+.PHONY : src/datahandler/exchangerateshandler.s
+
+# target to generate assembly for a file
+src/datahandler/exchangerateshandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.s
+.PHONY : src/datahandler/exchangerateshandler.cpp.s
+
+src/datahandler/tickerdata.o: src/datahandler/tickerdata.cpp.o
+.PHONY : src/datahandler/tickerdata.o
+
+# target to build an object file
+src/datahandler/tickerdata.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o
+.PHONY : src/datahandler/tickerdata.cpp.o
+
+src/datahandler/tickerdata.i: src/datahandler/tickerdata.cpp.i
+.PHONY : src/datahandler/tickerdata.i
+
+# target to preprocess a source file
+src/datahandler/tickerdata.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.i
+.PHONY : src/datahandler/tickerdata.cpp.i
+
+src/datahandler/tickerdata.s: src/datahandler/tickerdata.cpp.s
+.PHONY : src/datahandler/tickerdata.s
+
+# target to generate assembly for a file
+src/datahandler/tickerdata.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.s
+.PHONY : src/datahandler/tickerdata.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -232,6 +280,78 @@ src/net/binancewebsocketconnection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.s
 .PHONY : src/net/binancewebsocketconnection.cpp.s
 
+src/observer/websocketsubject.o: src/observer/websocketsubject.cpp.o
+.PHONY : src/observer/websocketsubject.o
+
+# target to build an object file
+src/observer/websocketsubject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o
+.PHONY : src/observer/websocketsubject.cpp.o
+
+src/observer/websocketsubject.i: src/observer/websocketsubject.cpp.i
+.PHONY : src/observer/websocketsubject.i
+
+# target to preprocess a source file
+src/observer/websocketsubject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.i
+.PHONY : src/observer/websocketsubject.cpp.i
+
+src/observer/websocketsubject.s: src/observer/websocketsubject.cpp.s
+.PHONY : src/observer/websocketsubject.s
+
+# target to generate assembly for a file
+src/observer/websocketsubject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.s
+.PHONY : src/observer/websocketsubject.cpp.s
+
+src/parser/jsonnode.o: src/parser/jsonnode.cpp.o
+.PHONY : src/parser/jsonnode.o
+
+# target to build an object file
+src/parser/jsonnode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o
+.PHONY : src/parser/jsonnode.cpp.o
+
+src/parser/jsonnode.i: src/parser/jsonnode.cpp.i
+.PHONY : src/parser/jsonnode.i
+
+# target to preprocess a source file
+src/parser/jsonnode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.i
+.PHONY : src/parser/jsonnode.cpp.i
+
+src/parser/jsonnode.s: src/parser/jsonnode.cpp.s
+.PHONY : src/parser/jsonnode.s
+
+# target to generate assembly for a file
+src/parser/jsonnode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.s
+.PHONY : src/parser/jsonnode.cpp.s
+
+src/parser/jsonparser.o: src/parser/jsonparser.cpp.o
+.PHONY : src/parser/jsonparser.o
+
+# target to build an object file
+src/parser/jsonparser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o
+.PHONY : src/parser/jsonparser.cpp.o
+
+src/parser/jsonparser.i: src/parser/jsonparser.cpp.i
+.PHONY : src/parser/jsonparser.i
+
+# target to preprocess a source file
+src/parser/jsonparser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.i
+.PHONY : src/parser/jsonparser.cpp.i
+
+src/parser/jsonparser.s: src/parser/jsonparser.cpp.s
+.PHONY : src/parser/jsonparser.s
+
+# target to generate assembly for a file
+src/parser/jsonparser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.s
+.PHONY : src/parser/jsonparser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,12 +366,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... arbitrage_bot"
+	@echo "... src/datahandler/exchangerateshandler.o"
+	@echo "... src/datahandler/exchangerateshandler.i"
+	@echo "... src/datahandler/exchangerateshandler.s"
+	@echo "... src/datahandler/tickerdata.o"
+	@echo "... src/datahandler/tickerdata.i"
+	@echo "... src/datahandler/tickerdata.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/net/binancewebsocketconnection.o"
 	@echo "... src/net/binancewebsocketconnection.i"
 	@echo "... src/net/binancewebsocketconnection.s"
+	@echo "... src/observer/websocketsubject.o"
+	@echo "... src/observer/websocketsubject.i"
+	@echo "... src/observer/websocketsubject.s"
+	@echo "... src/parser/jsonnode.o"
+	@echo "... src/parser/jsonnode.i"
+	@echo "... src/parser/jsonnode.s"
+	@echo "... src/parser/jsonparser.o"
+	@echo "... src/parser/jsonparser.i"
+	@echo "... src/parser/jsonparser.s"
 .PHONY : help
 
 

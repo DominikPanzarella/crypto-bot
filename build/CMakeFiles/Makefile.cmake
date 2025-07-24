@@ -11,6 +11,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeSystem.cmake"
+  "_deps/json-src/CMakeLists.txt"
+  "_deps/json-src/cmake/config.cmake.in"
+  "_deps/json-src/cmake/nlohmann_jsonConfigVersion.cmake.in"
+  "_deps/json-src/cmake/pkg-config.pc.in"
   "_deps/websocketpp-src/CMakeLists.txt"
   "_deps/websocketpp-src/cmake/CMakeHelpers.cmake"
   "_deps/websocketpp-src/websocketpp-config.cmake.in"
@@ -37,6 +41,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake"
   "/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake"
+  "/opt/homebrew/share/cmake/Modules/ExternalProject.cmake"
   "/opt/homebrew/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake"
   "/opt/homebrew/share/cmake/Modules/FetchContent.cmake"
   "/opt/homebrew/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
@@ -48,6 +53,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
   "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake"
   "/opt/homebrew/share/cmake/Modules/FindThreads.cmake"
+  "/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake"
   "/opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -80,11 +86,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/websocketpp-subbuild/CMakeLists.txt"
   "_deps/asio-subbuild/CMakeLists.txt"
+  "_deps/json-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/websocketpp-build/CMakeFiles/websocketpp-config.cmake"
   "_deps/websocketpp-build/CMakeFiles/websocketpp-configVersion.cmake"
   "_deps/websocketpp-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/websocketpp-build/websocketpp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/json-build/nlohmann_json.pc"
+  "_deps/json-build/nlohmann_jsonConfigVersion.cmake"
+  "_deps/json-build/nlohmann_jsonConfig.cmake"
+  "_deps/json-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

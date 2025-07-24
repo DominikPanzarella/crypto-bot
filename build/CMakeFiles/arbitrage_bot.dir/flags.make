@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DASIO_STANDALONE
 
-CXX_INCLUDES = -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -g -std=gnu++20 -arch arm64
 

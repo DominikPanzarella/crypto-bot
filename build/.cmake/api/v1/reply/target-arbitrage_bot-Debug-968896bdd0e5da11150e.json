@@ -27,25 +27,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 52,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 68,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 65,
+				"line" : 74,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 55,
+				"line" : 63,
 				"parent" : 0
 			}
 		]
@@ -74,11 +74,19 @@
 				},
 				{
 					"backtrace" : 4,
+					"path" : "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include"
+				},
+				{
+					"backtrace" : 4,
 					"path" : "/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include"
 				},
 				{
 					"backtrace" : 4,
 					"path" : "/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include"
 				},
 				{
 					"backtrace" : 4,
@@ -91,14 +99,19 @@
 			{
 				"backtraces" : 
 				[
-					1
+					2
 				],
 				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -143,12 +156,29 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/datahandler/exchangerateshandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/datahandler/tickerdata.cpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
@@ -159,6 +189,24 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/net/binancewebsocketconnection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/observer/websocketsubject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/parser/jsonnode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/parser/jsonparser.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

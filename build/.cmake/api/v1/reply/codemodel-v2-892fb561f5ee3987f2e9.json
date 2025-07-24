@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						3
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
@@ -50,6 +51,17 @@
 					"parentIndex" : 1,
 					"projectIndex" : 1,
 					"source" : "/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src/websocketpp"
+				},
+				{
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-Debug-c9cb88fabea41813866a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src"
 				}
 			],
 			"name" : "Debug",
@@ -58,7 +70,8 @@
 				{
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"directoryIndexes" : 
 					[
@@ -78,6 +91,14 @@
 					],
 					"name" : "websocketpp",
 					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
 				}
 			],
 			"targets" : 
@@ -85,7 +106,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "arbitrage_bot::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-arbitrage_bot-Debug-900c27fccfa561c5e419.json",
+					"jsonFile" : "target-arbitrage_bot-Debug-968896bdd0e5da11150e.json",
 					"name" : "arbitrage_bot",
 					"projectIndex" : 0
 				}

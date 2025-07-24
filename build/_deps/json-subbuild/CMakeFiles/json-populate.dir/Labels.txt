@@ -1,0 +1,14 @@
+# Target labels
+ json-populate
+# Source files and their labels
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/CMakeFiles/json-populate
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/CMakeFiles/json-populate.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/CMakeFiles/json-populate-complete.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test.rule
+/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update.rule

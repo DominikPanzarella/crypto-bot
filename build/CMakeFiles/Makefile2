@@ -65,21 +65,44 @@ CMAKE_BINARY_DIR = /Users/dominikpanzarella/Desktop/crypto-bot/build
 # The main recursive "all" target.
 all: CMakeFiles/arbitrage_bot.dir/all
 all: _deps/websocketpp-build/all
+all: _deps/json-build/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/arbitrage_bot.dir/codegen
 codegen: _deps/websocketpp-build/codegen
+codegen: _deps/json-build/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: _deps/websocketpp-build/preinstall
+preinstall: _deps/json-build/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/arbitrage_bot.dir/clean
 clean: _deps/websocketpp-build/clean
+clean: _deps/json-build/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory _deps/json-build
+
+# Recursive "all" directory target.
+_deps/json-build/all:
+.PHONY : _deps/json-build/all
+
+# Recursive "codegen" directory target.
+_deps/json-build/codegen:
+.PHONY : _deps/json-build/codegen
+
+# Recursive "preinstall" directory target.
+_deps/json-build/preinstall:
+.PHONY : _deps/json-build/preinstall
+
+# Recursive "clean" directory target.
+_deps/json-build/clean:
+.PHONY : _deps/json-build/clean
 
 #=============================================================================
 # Directory level rules for directory _deps/websocketpp-build
@@ -126,12 +149,12 @@ _deps/websocketpp-build/websocketpp/clean:
 CMakeFiles/arbitrage_bot.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=1,2,3 "Built target arbitrage_bot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target arbitrage_bot"
 .PHONY : CMakeFiles/arbitrage_bot.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arbitrage_bot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arbitrage_bot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles 0
 .PHONY : CMakeFiles/arbitrage_bot.dir/rule
@@ -143,7 +166,7 @@ arbitrage_bot: CMakeFiles/arbitrage_bot.dir/rule
 # codegen rule for target.
 CMakeFiles/arbitrage_bot.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arbitrage_bot.dir/build.make CMakeFiles/arbitrage_bot.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target arbitrage_bot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target arbitrage_bot"
 .PHONY : CMakeFiles/arbitrage_bot.dir/codegen
 
 # clean rule for target.

@@ -1,24 +1,19 @@
 #pragma once
 
+#include "net/iconnection.h"
+#include "moodycamel/concurrentqueue.h"
+
 #include <websocketpp/config/asio_client.hpp>
 #include <websocketpp/client.hpp>
-#include <atomic>
 #include <thread>
-#include <mutex>
-#include <condition_variable>
-#include <queue>
+#include <atomic>
 #include <functional>
 #include <string>
 
-#include "net/iconnection.h"
-
-class BinanceWebSocketConnection : public IConnection {
-    using Client = websocketpp::client<websocketpp::config::asio_tls_client>;
-    using ContextPtr = websocketpp::lib::shared_ptr<websocketpp::lib::asio::ssl::context>;
-
+class BinanceConnection : public IConnection {
 public:
-    BinanceWebSocketConnection();
-    ~BinanceWebSocketConnection() override;
+    BinanceConnection();
+    ~BinanceConnection();
 
     void connect(const std::string& uri) override;
     void disconnect() override;
@@ -30,33 +25,28 @@ public:
     void set_close_handler(ConnectionHandler handler) override;
     void set_fail_handler(ErrorHandler handler) override;
 
-    void set_debug(bool enable);
-
 private:
+    using Client = websocketpp::client<websocketpp::config::asio_tls_client>;
+    using ContextPtr = websocketpp::lib::shared_ptr<websocketpp::lib::asio::ssl::context>;
+
+    void run_send_loop();
+    void run_event_loop();
+
     Client m_client;
-    websocketpp::connection_hdl m_connection;
-    std::atomic<bool> m_is_connected;
-    std::atomic<bool> m_running;
+    websocketpp::connection_hdl m_hdl;
+    std::atomic<bool> m_running{false};
+    std::atomic<bool> m_connected{false};
 
-    // Threading
-    std::thread m_poll_thread;
-    std::thread m_send_thread;
+    // Lock-free queues
+    moodycamel::ConcurrentQueue<std::string> m_send_queue;
 
-    // Coda messaggi
-    std::queue<std::pair<std::string, std::function<void(const std::string&)>>> m_send_queue;
-    std::mutex m_send_mutex;
-    std::condition_variable m_send_cv;
+    // Threads
+    std::thread m_thread_send;
+    std::thread m_thread_event;
 
     // Handlers
-    MessageHandler m_message_handler;
+    MessageHandler m_msg_handler;
     ConnectionHandler m_open_handler;
     ConnectionHandler m_close_handler;
     ErrorHandler m_fail_handler;
-
-    // Internal handlers
-    ContextPtr on_tls_init();
-    void handle_message(websocketpp::connection_hdl, Client::message_ptr msg);
-    void handle_open(websocketpp::connection_hdl hdl);
-    void handle_close(websocketpp::connection_hdl hdl);
-    void handle_fail(websocketpp::connection_hdl hdl);
 };

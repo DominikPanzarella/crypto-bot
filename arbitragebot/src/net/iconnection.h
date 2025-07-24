@@ -2,22 +2,19 @@
 
 #include <functional>
 #include <string>
-#include <memory>
 
 class IConnection {
 public:
     virtual ~IConnection() = default;
 
-    // Metodi fondamentali
+    using MessageHandler = std::function<void(const std::string&)>;
+    using ConnectionHandler = std::function<void()>;
+    using ErrorHandler = std::function<void(const std::string&)>;
+
     virtual void connect(const std::string& uri) = 0;
     virtual void disconnect() = 0;
     virtual bool is_connected() const = 0;
     virtual void send(const std::string& message, std::function<void(const std::string&)> callback = nullptr) = 0;
-
-    // Callbacks
-    using MessageHandler = std::function<void(const std::string&)>;
-    using ConnectionHandler = std::function<void()>;
-    using ErrorHandler = std::function<void(const std::string&)>;
 
     virtual void set_message_handler(MessageHandler handler) = 0;
     virtual void set_open_handler(ConnectionHandler handler) = 0;

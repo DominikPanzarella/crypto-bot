@@ -72,10 +72,38 @@ include CMakeFiles/arbitrage_bot.dir/flags.make
 CMakeFiles/arbitrage_bot.dir/codegen:
 .PHONY : CMakeFiles/arbitrage_bot.dir/codegen
 
+CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o: CMakeFiles/arbitrage_bot.dir/flags.make
+CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o: /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/exchangerateshandler.cpp
+CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o: CMakeFiles/arbitrage_bot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o -MF CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o.d -o CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/exchangerateshandler.cpp
+
+CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/exchangerateshandler.cpp > CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.i
+
+CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/exchangerateshandler.cpp -o CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.s
+
+CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o: CMakeFiles/arbitrage_bot.dir/flags.make
+CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o: /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/tickerdata.cpp
+CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o: CMakeFiles/arbitrage_bot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o -MF CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o.d -o CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/tickerdata.cpp
+
+CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/tickerdata.cpp > CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.i
+
+CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/tickerdata.cpp -o CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.s
+
 CMakeFiles/arbitrage_bot.dir/src/main.cpp.o: CMakeFiles/arbitrage_bot.dir/flags.make
 CMakeFiles/arbitrage_bot.dir/src/main.cpp.o: /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/main.cpp
 CMakeFiles/arbitrage_bot.dir/src/main.cpp.o: CMakeFiles/arbitrage_bot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage_bot.dir/src/main.cpp.o -MF CMakeFiles/arbitrage_bot.dir/src/main.cpp.o.d -o CMakeFiles/arbitrage_bot.dir/src/main.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/main.cpp
 
 CMakeFiles/arbitrage_bot.dir/src/main.cpp.i: cmake_force
@@ -89,7 +117,7 @@ CMakeFiles/arbitrage_bot.dir/src/main.cpp.s: cmake_force
 CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o: CMakeFiles/arbitrage_bot.dir/flags.make
 CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o: /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/net/binancewebsocketconnection.cpp
 CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o: CMakeFiles/arbitrage_bot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o -MF CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o.d -o CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/net/binancewebsocketconnection.cpp
 
 CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.i: cmake_force
@@ -100,22 +128,74 @@ CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/net/binancewebsocketconnection.cpp -o CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.s
 
+CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o: CMakeFiles/arbitrage_bot.dir/flags.make
+CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o: /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/observer/websocketsubject.cpp
+CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o: CMakeFiles/arbitrage_bot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o -MF CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o.d -o CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/observer/websocketsubject.cpp
+
+CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/observer/websocketsubject.cpp > CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.i
+
+CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/observer/websocketsubject.cpp -o CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.s
+
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o: CMakeFiles/arbitrage_bot.dir/flags.make
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o: /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonnode.cpp
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o: CMakeFiles/arbitrage_bot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o -MF CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o.d -o CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonnode.cpp
+
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonnode.cpp > CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.i
+
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonnode.cpp -o CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.s
+
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o: CMakeFiles/arbitrage_bot.dir/flags.make
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o: /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonparser.cpp
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o: CMakeFiles/arbitrage_bot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o -MF CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o.d -o CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonparser.cpp
+
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonparser.cpp > CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.i
+
+CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonparser.cpp -o CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.s
+
 # Object files for target arbitrage_bot
 arbitrage_bot_OBJECTS = \
+"CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o" \
+"CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o" \
 "CMakeFiles/arbitrage_bot.dir/src/main.cpp.o" \
-"CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o"
+"CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o" \
+"CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o" \
+"CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o" \
+"CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o"
 
 # External object files for target arbitrage_bot
 arbitrage_bot_EXTERNAL_OBJECTS =
 
+arbitrage_bot: CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o
+arbitrage_bot: CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o
 arbitrage_bot: CMakeFiles/arbitrage_bot.dir/src/main.cpp.o
 arbitrage_bot: CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o
+arbitrage_bot: CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o
+arbitrage_bot: CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o
+arbitrage_bot: CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o
 arbitrage_bot: CMakeFiles/arbitrage_bot.dir/build.make
 arbitrage_bot: /opt/homebrew/lib/libssl.dylib
 arbitrage_bot: /opt/homebrew/lib/libcrypto.dylib
 arbitrage_bot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 arbitrage_bot: CMakeFiles/arbitrage_bot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable arbitrage_bot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/dominikpanzarella/Desktop/crypto-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable arbitrage_bot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arbitrage_bot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

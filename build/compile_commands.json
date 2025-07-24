@@ -1,14 +1,44 @@
 [
 {
   "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/build",
-  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/main.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/main.cpp",
+  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/exchangerateshandler.cpp",
+  "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/exchangerateshandler.cpp",
+  "output": "CMakeFiles/arbitrage_bot.dir/src/datahandler/exchangerateshandler.cpp.o"
+},
+{
+  "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/build",
+  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/tickerdata.cpp",
+  "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/datahandler/tickerdata.cpp",
+  "output": "CMakeFiles/arbitrage_bot.dir/src/datahandler/tickerdata.cpp.o"
+},
+{
+  "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/build",
+  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/main.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/main.cpp",
   "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/main.cpp",
   "output": "CMakeFiles/arbitrage_bot.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/build",
-  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/net/binancewebsocketconnection.cpp",
+  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/net/binancewebsocketconnection.cpp",
   "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/net/binancewebsocketconnection.cpp",
   "output": "CMakeFiles/arbitrage_bot.dir/src/net/binancewebsocketconnection.cpp.o"
+},
+{
+  "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/build",
+  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/observer/websocketsubject.cpp",
+  "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/observer/websocketsubject.cpp",
+  "output": "CMakeFiles/arbitrage_bot.dir/src/observer/websocketsubject.cpp.o"
+},
+{
+  "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/build",
+  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonnode.cpp",
+  "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonnode.cpp",
+  "output": "CMakeFiles/arbitrage_bot.dir/src/parser/jsonnode.cpp.o"
+},
+{
+  "directory": "/Users/dominikpanzarella/Desktop/crypto-bot/build",
+  "command": "/usr/bin/clang++ -DASIO_STANDALONE -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src -I/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/asio-src/asio/include -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/websocketpp-src -I/Users/dominikpanzarella/Desktop/crypto-bot/build/_deps/json-src/include -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o -c /Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonparser.cpp",
+  "file": "/Users/dominikpanzarella/Desktop/crypto-bot/arbitragebot/src/parser/jsonparser.cpp",
+  "output": "CMakeFiles/arbitrage_bot.dir/src/parser/jsonparser.cpp.o"
 }
 ]

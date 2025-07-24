@@ -84,6 +84,27 @@
         "utility": "cpp",
         "format": "cpp",
         "text_encoding": "cpp",
-        "ranges": "cpp"
-    }
+        "ranges": "cpp",
+        "chrono": "cpp",
+        "span": "cpp",
+        "buffer": "cpp",
+        "internet": "cpp",
+        "socket": "cpp",
+        "unordered_set": "cpp",
+        "barrier": "cpp",
+        "cfenv": "cpp",
+        "csetjmp": "cpp",
+        "cuchar": "cpp",
+        "forward_list": "cpp",
+        "latch": "cpp",
+        "print": "cpp",
+        "scoped_allocator": "cpp",
+        "semaphore": "cpp",
+        "shared_mutex": "cpp",
+        "stack": "cpp",
+        "typeindex": "cpp",
+        "valarray": "cpp",
+        "expected": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }

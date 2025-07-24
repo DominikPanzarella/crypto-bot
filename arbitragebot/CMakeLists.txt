@@ -24,8 +24,8 @@ find_package(OpenSSL REQUIRED)
 find_package(CURL REQUIRED)
 find_package(Boost REQUIRED)
 
-
 include(FetchContent)
+
 
 # WebSocket++
 FetchContent_Declare(
@@ -42,6 +42,14 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(asio)
 
+# === NLOHMANN JSON ===
+FetchContent_Declare(
+  json
+  URL https://github.com/nlohmann/json/releases/download/v3.11.3/json.tar.xz
+)
+FetchContent_MakeAvailable(json)
+
+
 # File sorgenti
 file(GLOB_RECURSE SOURCES
     src/*.cpp
@@ -54,6 +62,7 @@ add_executable(arbitrage_bot ${SOURCES})
 # Include directories
 target_include_directories(arbitrage_bot PRIVATE
     ${CMAKE_SOURCE_DIR}/src/
+    ${CMAKE_SOURCE_DIR}/include/
     ${asio_SOURCE_DIR}/asio/include
     ${websocketpp_SOURCE_DIR}
     ${OPENSSL_INCLUDE_DIR}
@@ -65,11 +74,12 @@ target_include_directories(arbitrage_bot PRIVATE
 target_compile_definitions(arbitrage_bot PRIVATE ASIO_STANDALONE)
 
 # Link libraries
-target_link_libraries(arbitrage_bot
+target_link_libraries(arbitrage_bot PUBLIC
     Threads::Threads
     OpenSSL::SSL
     OpenSSL::Crypto
     CURL::libcurl
+    nlohmann_json::nlohmann_json 
     ${Boost_LIBRARIES}
 )
 
